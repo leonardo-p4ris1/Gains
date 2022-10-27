@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600;700;900&display=swap%27');
 body{
     position: relative;
     background-color: #121212;
     margin: 0;
 }
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: ;
+}
 header {
     display: flex;
     align-items: center;
-    height: fit-content;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 10px;
+    margin-bottom: -20px;
 }
 nav {
     display: flex;
-    gap: 5vw;
-    margin: 30px auto;
+    gap: 7vw;
+    margin: 0 auto;
 }
 .nav{
     font-family: "Poppins";
@@ -22,37 +27,39 @@ nav {
 }
 li {
     list-style: none;
-    font-size: 24px;
+    font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
 }
 .gains{
     font-family: "Poppins";
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 300;
     color: #F87102;
-    margin: 30px 60px;
+    margin-left: 60px;
 }
 .button{
-    border-radius: 10%;
+    border-radius: 10px;
     display: flex;
 }
 .primary{
-    width: 250px;
-    height: 70px;
+    width: 230px;
+    height: 60px;
     background-color: #F87102;
     border-radius: 10px;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-    margin: 30px 60px;
+    margin: 15px 60px;
     min-width: 100px;
-    max-height: 90px;
+    max-height: 60px;
     height: fit-content;
 }
 .launchGAINS{
     font-family: "Poppins";
     font-weight: 600;
     color: #121212;
+    font-size: 20px;
 }
 .line{
     color: white;
@@ -60,11 +67,13 @@ li {
     width: 100%;
 }
 .stopdelaying{
-    font-size: 96px;
+    font-size: 78px;
     font-family: "Poppins";
     font-weight: 500;
-    padding-top: 100px;
-    padding-left: 100px;
+    margin-left: -345px;
+    margin-top: 50px;
+    position: relative;
+
 }
 .stop{
     color: #F87102;
@@ -74,14 +83,17 @@ li {
 }
 .first-p{
     font-family: "Poppins";
-    font-size: 30px;
-    padding-left: 100px;
+    font-size: 24px;
+    margin-left: -345px;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
 }
 .main-svg{
-    width: 630;
-    height: 530;
-    padding-left: 1100px;
-    margin-top: -300px;
+    margin-top: 150px;
+    margin-right: -300px;
+}
+.numbers{
+    font-family: "Satoshi";
+    font-size: 64px;
+    color: white;
 }
