@@ -1,79 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600;700;900&display=swap%27');
-body{
-    position: relative;
-    background-color: #121212;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap%27');
+
+*{
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    background-color: #121212;
 }
+ul{
+    display: flexbox;
+}
+
+li, a, button{
+    font-family: "Montserrant" sans-serif;
+    font-size: 24px;
+    color: #F87102;
+    text-decoration: none;\
+}
+
+li, a{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Satoshi";
+    font-weight: 300;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+}
+
+.logo{
+    cursor: pointer;
+    font-family: "Satoshi";
+    font-weight: 300;
+    font-size: 48px;
+    color: #F87102;
+}
+.Working-in-progress{
+    font-size: 160px;
+    font-family: "Satoshi";
+    color: #F87102;
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #F87102;
+    color: #121212;
+    font-family: "Satoshi";
+    width: 260px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 22px;
+    border: none;
+    min-width: 87px;
+    min-height: 23px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
 .container{
     display: flex;
-    justify-content: space-evenly;
-    margin-left: ;
+    justify-content: space-between;
 }
-header {
-    display: flex;
-    align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: -20px;
-}
-nav {
-    display: flex;
-    gap: 7vw;
-    margin: 0 auto;
-}
-.nav{
-    font-family: "Poppins";
-    font-weight: 300;
-}
-li {
-    list-style: none;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.7);
-    margin: 0 auto;
-}
-.gains{
-    font-family: "Poppins";
-    font-size: 32px;
-    font-weight: 300;
-    color: #F87102;
-    margin-left: 60px;
-}
-.button{
-    border-radius: 10px;
-    display: flex;
-}
-.primary{
-    width: 230px;
-    height: 60px;
-    background-color: #F87102;
-    border-radius: 10px;
-    margin-top: 10px;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 60px;
-    min-width: 100px;
-    max-height: 60px;
-    height: fit-content;
-}
-.launchGAINS{
-    font-family: "Poppins";
-    font-weight: 600;
-    color: #121212;
-    font-size: 20px;
-}
-.line{
-    color: white;
-    opacity: 0.7;
-    width: 100%;
-}
+
 .stopdelaying{
     font-size: 78px;
     font-family: "Poppins";
     font-weight: 500;
-    margin-left: -345px;
-    margin-top: 50px;
-    position: relative;
 
+}
+.stop-p{
+    margin: 30px 3%;
+    display: flex;
+    flex-direction: column;
 }
 .stop{
     color: #F87102;
@@ -84,13 +100,13 @@ li {
 .first-p{
     font-family: "Poppins";
     font-size: 24px;
-    margin-left: -345px;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
 }
 .main-svg{
     margin-top: 150px;
-    margin-right: -300px;
+    margin-bottom: 50px;
+    margin-right: 120px;
 }
 .numbers{
     font-family: "Satoshi";
