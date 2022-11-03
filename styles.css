@@ -8,13 +8,8 @@
     padding: 0;
     background-color: #121212;
 }
-ul{
-    display: flexbox;
-}
-
 li, a, button{
-    font-family: "Montserrant" sans-serif;
-    font-size: 24px;
+    font-size: 23px;
     color: #F87102;
     text-decoration: none;
 }
@@ -23,28 +18,31 @@ li, a{
     color: rgba(255, 255, 255, 0.7);
     font-family: "Satoshi";
     font-weight: 300;
-    flex-direction: row;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 25px 50px;
     align-items: center;
-    padding: 30px 3%;
 }
-
+ul{  
+    display: flex;
+    justify-content: center;
+}
+.cta{
+    display: flex;
+    justify-content: end;
+}
 .logo{
     cursor: pointer;
     font-family: "Satoshi";
     font-weight: 300;
     font-size: 48px;
     color: #F87102;
+    transition: all 0.3s ease 0s;
 }
-.Working-in-progress{
-    font-size: 160px;
-    font-family: "Satoshi";
-    color: #F87102;
-}
+
 .nav_links{
     list-style: none;
 }
@@ -63,16 +61,17 @@ button{
     background-color: #F87102;
     color: #121212;
     font-family: "Satoshi";
-    width: 135.84px;
+    width: 230px;
     height: 70px;
     font-weight: 500;
     font-size: 22px;
     border: none;
     min-width: 87px;
     min-height: 23px;
-    border-radius: 50px;
+    border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    display
 }
 
 .container{
@@ -87,7 +86,7 @@ button{
 
 }
 .stop-p{
-    margin: 30px 3%;
+    margin: 75px 50px;
     display: flex;
     flex-direction: column;
 }
@@ -102,14 +101,34 @@ button{
     font-size: 24px;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
+    margin-top: 25px;
+    line-height: 40px;
+    letter-spacing: 1px;
 }
 .main-svg{
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-right: 120px;
+    margin-right: 180px;
 }
 .numbers{
     font-family: "Satoshi";
     font-size: 64px;
     color: white;
+}
+
+.body-links{
+    background-color: #121212;
+}
+
+.Work-in-progress{
+    font-size: 96px;
+    font-family: "Satoshi";
+    color: #F87102;
+}
+
+.work-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
 }
