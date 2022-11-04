@@ -107,7 +107,7 @@ button{
 .main-svg{
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-right: 180px;
+    margin-right: 300px;
 }
 .numbers{
     font-family: "Satoshi";
@@ -120,14 +120,15 @@ body{
 }
 
 .Work-in-progress{
-    font-size: 96px;
+    font-size: 64px;
+    font-weight: 500;
     font-family: "Satoshi";
     color: #F87102;
 }
 
 .work-div{
     display: flex;
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
 }
