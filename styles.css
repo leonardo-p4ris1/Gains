@@ -18,12 +18,13 @@ li, a{
     color: rgba(255, 255, 255, 0.7);
     font-family: "Satoshi";
     font-weight: 300;
+    font-size: 18px;
 }
 
 header{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    padding: 25px 50px;
+    padding: 25px 150px 15px 150px;
     align-items: center;
 }
 ul{  
@@ -33,14 +34,6 @@ ul{
 .cta{
     display: flex;
     justify-content: end;
-}
-.logo{
-    cursor: pointer;
-    font-family: "Satoshi";
-    font-weight: 300;
-    font-size: 48px;
-    color: #F87102;
-    transition: all 0.3s ease 0s;
 }
 
 .nav_links{
@@ -52,40 +45,36 @@ ul{
     padding: 0px 20px;
 }
 
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
 button{
     padding: 9px 25px;
     background-color: #F87102;
     color: #121212;
     font-family: "Satoshi";
-    width: 230px;
-    height: 70px;
+    width: 170px;
+    height: 50px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 16px;
     border: none;
     min-width: 87px;
     min-height: 23px;
-    border-radius: 30px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
+    margin: 125px 150px 75px 150px;
 }
 
 .stopdelaying{
-    font-size: 78px;
+    font-size: 72px;
     font-family: "Poppins";
     font-weight: 500;
 
 }
 .stop-p{
-    margin: 75px 30px 75px 50px;
     display: flex;
     flex-direction: column;
 }
@@ -94,21 +83,18 @@ button{
 }
 .delaying{
     color: white;
+    font-weight: 400;
 }
 .first-p{
     font-family: "Poppins";
-    font-size: 24px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 300;
     margin-top: 25px;
-    line-height: 50px;
-    letter-spacing: 1px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 }
-.main-svg{
-    margin-top: 150px;
-    margin-bottom: 50px;
-    margin-right: 300px;
-}
+
 .numbers{
     font-family: "Satoshi";
     font-size: 64px;
@@ -120,7 +106,7 @@ body{
 }
 
 .Work-in-progress{
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 500;
     font-family: "Satoshi";
     color: #F87102;
@@ -128,9 +114,21 @@ body{
 
 .work-div{
     display: flex;
-    height: 80vh;
+    height: 150vh;
+    width: 100%;
     justify-content: center;
     align-items: center;
+}
+.landing-main{
+    
+    display: flex;
+}
+.o1{
+    font-family: "Poppins";
+    font-size: 220px;
+}
+.get{
+    font-weight: 400
 }
 /*
 .grid{
